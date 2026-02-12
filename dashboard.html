@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dashboard | Scholaria</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="navbar">
+    <div class="logo">Scholaria</div>
+    <button onclick="logout()" class="btn-outline">Logout</button>
+</header>
+
+<section class="dashboard">
+
+    <h2>Publish Your Thesis</h2>
+
+    <div class="editor">
+        <input type="text" placeholder="Thesis Title" class="title-input">
+        <textarea placeholder="Write your abstract or thesis content here..." rows="12"></textarea>
+        <button class="btn-primary">Publish</button>
+    </div>
+
+    <h3>Your Publications</h3>
+    <div class="posts">
+        <div class="post-card">
+            <h4>Sample Thesis Title</h4>
+            <p>Short preview of thesis abstract...</p>
+        </div>
+    </div>
+
+</section>
+
+<script src="js/auth.js"></script>
+</body>
+</html>
